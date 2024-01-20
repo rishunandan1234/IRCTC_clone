@@ -1,0 +1,157 @@
+body{
+    margin: 20px;
+}
+
+.navi{
+    display: flex;
+}
+
+.naviOne{
+    width: 10%;
+}
+
+.naviTwo{
+    width: 80%;
+}
+
+.naviThree{
+    width: 10%;
+}
+
+.naviTwo_one{
+    margin: 15px;
+    text-align: center;
+}
+
+.naviTwo_one a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+
+}
+
+.naviTwo_one a:hover{
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+}
+
+.main_One{
+   
+        /* Background pattern from Toptal Subtle Patterns */
+        background-image: url("IMG/images.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 20px;
+        padding-left: 40px;
+        
+        
+}
+
+.ticket1{
+    margin-top: 0px;
+    max-width: 50%;
+    background-color: white;
+}
+
+.t1{
+    text-align: center;
+    display: flex;
+}
+
+.t1 a{
+    text-decoration: none;
+    color: white;
+    /* background-color: blue; */
+}
+
+.t1 div{
+    width: 50%;
+    background-color: rgb(25, 25, 103);
+    padding: 10px;
+    margin: 2px;
+}
+
+.t2{
+    display: flex;
+    /* width: fit-content; */
+    
+}
+.t2_o{
+    width: 20%;
+}
+.t2_t{
+    width: 70%;
+}
+
+.t2_t{
+    text-align: center;
+}
+.t2_t h1{
+    color: rgb(14, 14, 70);
+}
+
+.t3{
+    margin: 20px;
+    display: flex;
+    
+}
+
+.t3 input[type], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+.t3_o{
+    width: 60%;
+    /* padding-right: 20px; */
+    margin-right: 20px;
+    
+}
+.t3_t{
+    width: 40%;
+}
+
+.t4{
+    margin: 20px;
+}
+
+.t4 input {
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+  }
+
+.t4 label{
+    padding-right: 15px;
+    color: rgb(20, 20, 134);
+}
+
+.t5{
+    display: flex;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+.t5 div{
+    width: 50%;
+}
+
+.t5 div button{
+    background-color: rgb(66, 28, 28);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.cnt{
+    padding: 20px;
+    text-align: center;
+    color: rgb(29, 11, 61);
+}
